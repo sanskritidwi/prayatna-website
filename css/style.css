@@ -13,7 +13,7 @@ body{
 }
 
 header{
-background-color: #333945;
+background-color: #003459;
 height : 100px;
 margin-bottom: 0px;
 padding-bottom: 0px;
@@ -43,7 +43,7 @@ display: inline;
 }
 nav a {
   float: left;
-  color: #fff;
+  color: #D9DCD6;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -52,17 +52,17 @@ nav a {
 
 /* Change the color of links on hover */
 nav a:hover {
-  background-color: #333945;
-  color: #fff;
+  background-color: #16425B;
+  color: #D9DCD6;
   
-  border-bottom: #F3B431 0.125em solid;
+  border-bottom: #D9DCD6 0.125em solid;
 }
 
 /* Add a color to the active/current link */
 nav a.active {
-  background-color: #333945;
-  color: white;
-  border-bottom: #F3B431 0.125em solid;
+  background-color: #16425B;
+  color: #2A9D8F;
+  border-bottom:#2EC4B6 0.125em solid;
   /*transition: 3s; */
 }
 
