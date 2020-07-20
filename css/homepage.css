@@ -39,6 +39,33 @@
 	border: 0;
 }
 
+color-5,
+color-5:after,
+color-5::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+color-5 a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+color-5 a:hover,
+color-5 a:focus {
+	outline: none;
+}
+
 .cl-effect-5 a {
 	overflow: hidden;
 	padding: 0 4px;
