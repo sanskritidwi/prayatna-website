@@ -89,12 +89,6 @@
 
 
 
-.item-photo img{
-    padding: 50px;
-	height: 500px;
-	width: 600px;
-	float:left;
-}
 
 .division p{
    /* border: 1px solid black;*/
@@ -105,23 +99,55 @@
 
  .info div{
  	background: #505050;
-    position: absolute;  right: 0;  left: 0;
+  /*  position: absolute; */
+   margin-left: 5px;
+   margin-right: 5px;
+  /* padding: 100px; */
+   right: 0;  left: 0;
  }
+
+ .item-photo img{
+    padding: 20px;
+	height: 300px;
+	width: 400px;
+	float:left;
+}
+
 
 .item-photo h3{
 
 	float: right;
 	width: 50%;
-	padding: 40px;
+	padding: 20px;
 	font-size: 40px;
 	font-weight: bold;
 	color: #fff;
 	font-family: Montserrat;
-	padding-top: 150px;
-	padding-bottom:10px;
+	padding-top: 30px;
+	padding-bottom:0px;
 	
 }
 
+
+.item-photo p{
+	font-size:15px; 
+	float: right;
+	width: 50%;
+	padding:20px;
+	padding-top: 40px;
+	color: #fff;
+	font-family: Montserrat;
+}
+
+.item-photo button{
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	background-color: #804000;
+	font-family: Montserrat;
+	border: 0;
+
+}
 .item-photo1 img{
 
     padding: 20px;
