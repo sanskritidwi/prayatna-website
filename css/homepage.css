@@ -30,6 +30,7 @@
 	color: #fff;
 	font-weight: bold;
 	font-family: Montserrat;
+	position:relative;
 
 }
 
@@ -104,6 +105,7 @@
    margin-right: 5px;
   /* padding: 100px; */
    right: 0;  left: 0;
+	 width:100%;
  }
 
  .item-photo img{
