@@ -2,6 +2,7 @@
 	height: 100px;
 	width: 100px;
 	margin: 10px 15px 10px 0;
+	margin-left: -10vw;
  
 }
 .navbar-toggler{
@@ -30,7 +31,6 @@
 	color: #fff;
 	font-weight: bold;
 	font-family: Montserrat;
-	position:relative;
 
 }
 
@@ -39,9 +39,10 @@
 	font-weight: bold;
 	background-color: #804000;
 	font-family: Montserrat;
-	margin-top: 10px;
+	margin-top: 0vw;
 	margin-left: 5px;
 	border: 0;
+	padding: 15px;
 }
 
 .carousel-item{
@@ -64,15 +65,6 @@
 }
 
 
-.division #par{
-	
-    font-size: 40px;
-    width: 50%;
-    font-weight: bold;
-    font-family: Montserrat;
-
-}
-
 
 
 
@@ -82,13 +74,20 @@
 	font-weight: bold;
 	background-color: #804000;
 	font-family: Montserrat;
-	margin-top: 15px;
-	margin-left: 10px;
+	margin-top: 180px;
+	margin-left: -75vw;
 	border: 0;
-
+    padding: 20px;
 }
 
-
+ #par{
+	
+    font-size: 40px;
+    width: 60%;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-left: -13vw;
+}
 
 
 .division p{
@@ -96,22 +95,29 @@
    width: 50%;
    float: left;	
    padding: 30px;
+   
  }
 
- .info div{
+ .row-full{
  	background: #505050;
-  /*  position: absolute; */
-   margin-left: 5px;
-   margin-right: 5px;
-  /* padding: 100px; */
-   right: 0;  left: 0;
-	 width:100%;
+  width: 100vw;
+ position: relative;
+ margin-left: -50vw;
+height: 0;
+ margin-top: 80px;
+ left: 50%;
+
+ }
+
+  .row-full section{
+ 	background: #505050;
+  
  }
 
  .item-photo img{
-    padding: 20px;
-	height: 300px;
-	width: 400px;
+    padding: 60px;
+	height: 500px;
+	width: 700px;
 	float:left;
 }
 
@@ -120,13 +126,12 @@
 
 	float: right;
 	width: 50%;
-	padding: 20px;
+	padding: 10px;
 	font-size: 40px;
 	font-weight: bold;
 	color: #fff;
 	font-family: Montserrat;
-	padding-top: 30px;
-	padding-bottom:0px;
+    margin-top: 10vw;
 	
 }
 
@@ -135,26 +140,31 @@
 	font-size:15px; 
 	float: right;
 	width: 50%;
-	padding:20px;
+	padding:10px;
 	padding-top: 40px;
 	color: #fff;
 	font-family: Montserrat;
+	margin-left: -40vw;
 }
 
 .item-photo button{
 	color: #fff;
-	float: right;
 	font-weight: bold;
 	background-color: #804000;
 	font-family: Montserrat;
+	margin-top: 180px;
+	margin-left: -75vw;
 	border: 0;
+    padding: 20px;
+
 
 }
+
 .item-photo1 img{
 
-    padding: 20px;
-	height: 300px;
-	width: 400px;
+    padding: 60px;
+	height: 500px;
+	width: 700px;
 	float:right;
 }
 
@@ -168,8 +178,10 @@
 	font-weight: bold;
 	color: #fff;
 	font-family: Montserrat;
-	padding-top: 70px;
-	padding-bottom:0px;
+	padding-top: 40px;
+	padding-bottom:0;
+	margin-top: 6vw;
+	margin-left: 2vw;
 	
 }
 
@@ -179,9 +191,10 @@
 	float: left;
 	width: 50%;
 	padding:40px;
-	padding-top: 50px;
+	padding-top: 30px;
 	color: #fff;
 	font-family: Montserrat;
+	margin-left: 2vw;
 }
 
 .item-photo1 button{
@@ -190,15 +203,14 @@
 	background-color: #804000;
 	font-family: Montserrat;
 	margin-top: 600px;
-	margin-left: 5px;
 	border: 0;
-	float:left;
+	margin-left: 50vw;
 }
 
 .item-photo2 img{
-    padding: 20px;
-	height: 300px;
-	width: 400px;
+ padding: 60px;
+	height: 500px;
+	width: 700px;
 	float:left;
 }
 
@@ -207,13 +219,15 @@
 
 	float: right;
 	width: 50%;
-	padding: 20px;
+	padding: 10px;
 	font-size: 40px;
 	font-weight: bold;
 	color: #fff;
 	font-family: Montserrat;
 	padding-top: 30px;
 	padding-bottom:0px;
+	margin-top: 6vw;
+	margin-left: 2vw;
 	
 }
 
@@ -222,10 +236,11 @@
 	font-size:15px; 
 	float: right;
 	width: 50%;
-	padding:20px;
+	padding:10px;
 	padding-top: 40px;
 	color: #fff;
 	font-family: Montserrat;
+	margin-left: 2vw;
 }
 
 .item-photo2 button{
@@ -235,28 +250,24 @@
 	background-color: #804000;
 	font-family: Montserrat;
 	border: 0;
+	margin-left: 2vw;
 
 }
 
 .division2 p{
    /* border: 1px solid black;*/
    font-size: 50px;
-   font-weight: bold;
-   
+   font-weight: 0;
+   width: 70%;
    float: left;	
-   padding-top: 120px;
+   padding-top: 1550px;
    padding-left: 0px;
    padding-bottom: 90px;
    padding-right: 90px;
-   margin-left: 0px;
+   margin-left: -11vw;
  }
- .division2 span{
-   /* border: 1px solid black;*/
-   font-weight: 0;
-   width: 50%;
-   float: left;	
-   padding: 30px;
- }
+
+/************************************************ Footer ************************************************/
 
 
 
@@ -369,4 +380,3 @@
 
 
 }
-
