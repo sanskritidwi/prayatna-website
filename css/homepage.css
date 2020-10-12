@@ -7,6 +7,7 @@
 }
 .navbar-toggler{
 	margin-top: 0;
+	
 }
 
 *{
@@ -19,18 +20,33 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
+    margin-left: 10vw;
 
+
+}
+
+.navbar {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.navbar-hide {
+    pointer-events: none;
+    opacity: 0;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
 	color: #fff;
 	font-family: Montserrat;
+	margin-left: 20vw;
+
 }
 
 .navbar-light .navbar-nav .nav-link{
 	color: #fff;
 	font-weight: bold;
 	font-family: Montserrat;
+    
 
 }
 
@@ -40,7 +56,7 @@
 	background-color: #804000;
 	font-family: Montserrat;
 	margin-top: 0vw;
-	margin-left: 5px;
+	margin-left: 2vw;
 	border: 0;
 	padding: 15px;
 }
@@ -56,9 +72,12 @@
 .carousel-caption{
     left: 5px;
 	bottom: 240px;
+	width:100%;
 }
 
-
+ul{
+	margin-left: 10vw;
+}
 
 #diff h3{
 	color: #fff;
@@ -75,7 +94,7 @@
 	background-color: #804000;
 	font-family: Montserrat;
 	margin-top: 180px;
-	margin-left: -75vw;
+	margin-left: -80vw;
 	border: 0;
     padding: 20px;
 }
@@ -137,10 +156,10 @@ height: 0;
 
 
 .item-photo p{
-	font-size:15px; 
+	font-size:17px; 
 	float: right;
 	width: 50%;
-	padding:10px;
+	padding:18px;
 	padding-top: 40px;
 	color: #fff;
 	font-family: Montserrat;
@@ -187,7 +206,7 @@ height: 0;
 
 
 .item-photo1 p{
-	font-size:15px; 
+	font-size:17px; 
 	float: left;
 	width: 50%;
 	padding:40px;
@@ -233,10 +252,10 @@ height: 0;
 
 
 .item-photo2 p{
-	font-size:15px; 
+	font-size:17px; 
 	float: right;
 	width: 50%;
-	padding:10px;
+	padding:20px;
 	padding-top: 40px;
 	color: #fff;
 	font-family: Montserrat;
@@ -260,12 +279,84 @@ height: 0;
    font-weight: 0;
    width: 70%;
    float: left;	
-   padding-top: 1550px;
+   padding-top: 1620px;
    padding-left: 0px;
    padding-bottom: 90px;
    padding-right: 90px;
    margin-left: -11vw;
  }
+
+.row-next {
+	margin-left: -10vw;
+    font-family: Montserrat;
+    margin-top: 180px;
+    color: #000;
+    font-size: 1px;
+
+}
+
+form {
+
+  margin-top: -25vw;
+  float: right;
+  width: 400px;
+  /* Form outline */
+  
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  margin-left: -1vw;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+input, 
+textarea {
+
+  width: 550px;
+  height:50px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+
+}
+
+input:focus, 
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+  margin-top: 1vw;
+
+}
+
+button {
+
+  margin-left: 2em;
+}
+
+
 
 /************************************************ Footer ************************************************/
 
